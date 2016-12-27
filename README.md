@@ -2,7 +2,7 @@
 可以自定义不同样式的导航栏样式的导航栏视图控制器（有push动画效果）
 
 #效果图
-!(navigation.gif)[./navigation.gif]
+![navigation.gif](./navigation.gif)
 
 #功能介绍说明
 使用继承UINavigationContoller的封装类SYNavigationController，便于设置自定义的导航栏样式，效果优于使用未封装UINavigationContoller时的效果。
