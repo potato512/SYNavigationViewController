@@ -48,12 +48,12 @@ rootVC.showCancelBarButtonItem = YES;
 ~~~~ 
 
 # 注意事项
- * 1 获取视图控制器数组，或索引时不是
+ * 1 获取视图控制器数组
 ~~~~ javascript
+// 错误方法
 NSLog(@"%@ 是 %@ 中的第 %@ 个视图控制器", self, @(self.navigationController.viewControllers.count), @([self.navigationController.viewControllers indexOfObject:self]));
-~~~
- 而是
-~~~ javascript
+
+// 正确方法
 NSLog(@"%@ 是 %@ 中的第 %@ 个视图控制器", self, @(self.sy_navigationController.sy_viewControllers.count), @([self.sy_navigationController.sy_viewControllers indexOfObject:self]));
 ~~~
 
