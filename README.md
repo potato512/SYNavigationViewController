@@ -19,43 +19,43 @@
  * 同时可以设置状态栏字体样式，黑色或白色
 
 # 使用方法
-~~~~ javascript
+~~~ javascript
 // 导入头文件
 #import "SYNavigationController.h"
-~~~~
+~~~ 
 
-~~~~ javascript
+~~~ javascript
 // 定义根视图
 ViewController *rootVC = [[ViewController alloc] init];
 SYNavigationController *rootNav = [[SYNavigationController alloc] initWithRootViewController:rootVC];
 rootNav.showBackBarButtonItem = YES;
 rootNav.transferNavigationBarAttributes = NO;
 rootVC.showCancelBarButtonItem = YES;
-~~~~ 
+~~~ 
 
-~~~~ javascript
+~~~ javascript
 // 修改导航栏样式
 [self navigationStyleWithBackgroundColor:[UIColor brownColor] buttonColor:[UIColor yellowColor] titleColor:[UIColor greenColor] titleFont:[UIFont systemFontOfSize:12.0]];
-~~~~ 
+~~~ 
 
-~~~~ javascript
+~~~ javascript
 // 修改状态栏样式
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     // 黑色字体UIStatusBarStyleDefault、白色字体UIStatusBarStyleLightContent
     return UIStatusBarStyleDefault;
 }
-~~~~ 
+~~~ 
 
 # 注意事项
  * 1 获取视图控制器数组
-~~~~ javascript
+~~~ javascript
 // 错误方法
 NSLog(@"%@ 是 %@ 中的第 %@ 个视图控制器", self, @(self.navigationController.viewControllers.count), @([self.navigationController.viewControllers indexOfObject:self]));
 
 // 正确方法
 NSLog(@"%@ 是 %@ 中的第 %@ 个视图控制器", self, @(self.sy_navigationController.sy_viewControllers.count), @([self.sy_navigationController.sy_viewControllers indexOfObject:self]));
-~~~
+~~~ 
 
  * 2
 
