@@ -25,6 +25,7 @@
     rootNav.showBackBarButtonItem = YES;
     rootNav.transferNavigationBarAttributes = NO;
 
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = rootNav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

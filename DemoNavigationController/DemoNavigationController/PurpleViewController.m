@@ -7,7 +7,6 @@
 //
 
 #import "PurpleViewController.h"
-#import "SYNavigationController.h"
 
 @interface PurpleViewController ()
 
@@ -27,25 +26,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (void)dealloc
-{
-    NSLog(@"%@ 被释放了", self);
-}
-
-- (void)loadView
-{
-    [super loadView];
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)])
-    {
-        [self setEdgesForExtendedLayout:UIRectEdgeNone];
-    }
-    
-    NSLog(@"%@ 是 %@ 中的第 %@ 个视图控制器", self, @(self.sy_navigationController.sy_viewControllers.count), @([self.sy_navigationController.sy_viewControllers indexOfObject:self]));
-}
-
 
 #pragma mark - 导航栏样式自定义
 

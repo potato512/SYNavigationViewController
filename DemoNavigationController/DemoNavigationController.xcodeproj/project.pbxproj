@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A77422B91E0D125100D7F547 /* SYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77422B61E0D125100D7F547 /* SYNavigationController.m */; };
-		A77422BA1E0D125100D7F547 /* UIViewController+SYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77422B81E0D125100D7F547 /* UIViewController+SYNavigationController.m */; };
-		A77422BD1E0D2C1F00D7F547 /* SYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A77422BC1E0D2C1F00D7F547 /* SYNavigationBar.m */; };
+		A7564F361EE51F0E00672FA5 /* SYNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F311EE51F0E00672FA5 /* SYNavigationBar.m */; };
+		A7564F371EE51F0E00672FA5 /* SYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F331EE51F0E00672FA5 /* SYNavigationController.m */; };
+		A7564F381EE51F0E00672FA5 /* UIViewController+SYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F351EE51F0E00672FA5 /* UIViewController+SYNavigationController.m */; };
+		A7564F3C1EE5386400672FA5 /* AnimationCubeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F3B1EE5386400672FA5 /* AnimationCubeVC.m */; };
+		A7564F3F1EE5486000672FA5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F3E1EE5486000672FA5 /* BaseViewController.m */; };
+		A7564F421EE54AE100672FA5 /* AnimationMoveInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F411EE54AE100672FA5 /* AnimationMoveInVC.m */; };
+		A7564F451EE54AF600672FA5 /* AnimationRevealVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F441EE54AF600672FA5 /* AnimationRevealVC.m */; };
+		A7564F481EE54B0800672FA5 /* AnimationFadeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F471EE54B0800672FA5 /* AnimationFadeVC.m */; };
+		A7564F4B1EE54B1900672FA5 /* AnimationPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F4A1EE54B1900672FA5 /* AnimationPageVC.m */; };
+		A7564F4E1EE54B2B00672FA5 /* AnimationSuckVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F4D1EE54B2B00672FA5 /* AnimationSuckVC.m */; };
+		A7564F511EE54B3C00672FA5 /* AnimationRippleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F501EE54B3C00672FA5 /* AnimationRippleVC.m */; };
+		A7564F541EE54B4F00672FA5 /* AnimationOglVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F531EE54B4F00672FA5 /* AnimationOglVC.m */; };
+		A7564F571EE54B9700672FA5 /* AnimationRotateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F561EE54B9700672FA5 /* AnimationRotateVC.m */; };
+		A7564F5A1EE54BB300672FA5 /* AnimationPushVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F591EE54BB300672FA5 /* AnimationPushVC.m */; };
+		A7564F5D1EE54BC200672FA5 /* AnimationCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7564F5C1EE54BC200672FA5 /* AnimationCameraVC.m */; };
 		A78418081DFFCBCA008D47EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78418071DFFCBCA008D47EB /* main.m */; };
 		A784180B1DFFCBCA008D47EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A784180A1DFFCBCA008D47EB /* AppDelegate.m */; };
 		A784180E1DFFCBCA008D47EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A784180D1DFFCBCA008D47EB /* ViewController.m */; };
-		A78418111DFFCBCA008D47EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A784180F1DFFCBCA008D47EB /* Main.storyboard */; };
 		A78418131DFFCBCA008D47EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78418121DFFCBCA008D47EB /* Assets.xcassets */; };
 		A78418161DFFCBCA008D47EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78418141DFFCBCA008D47EB /* LaunchScreen.storyboard */; };
 		A78418211DFFCBCA008D47EB /* DemoNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A78418201DFFCBCA008D47EB /* DemoNavigationControllerTests.m */; };
@@ -43,19 +54,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A77422B51E0D125100D7F547 /* SYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNavigationController.h; sourceTree = "<group>"; };
-		A77422B61E0D125100D7F547 /* SYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNavigationController.m; sourceTree = "<group>"; };
-		A77422B71E0D125100D7F547 /* UIViewController+SYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SYNavigationController.h"; sourceTree = "<group>"; };
-		A77422B81E0D125100D7F547 /* UIViewController+SYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SYNavigationController.m"; sourceTree = "<group>"; };
-		A77422BB1E0D2C1F00D7F547 /* SYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNavigationBar.h; sourceTree = "<group>"; };
-		A77422BC1E0D2C1F00D7F547 /* SYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNavigationBar.m; sourceTree = "<group>"; };
+		A7564F301EE51F0E00672FA5 /* SYNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNavigationBar.h; sourceTree = "<group>"; };
+		A7564F311EE51F0E00672FA5 /* SYNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNavigationBar.m; sourceTree = "<group>"; };
+		A7564F321EE51F0E00672FA5 /* SYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNavigationController.h; sourceTree = "<group>"; };
+		A7564F331EE51F0E00672FA5 /* SYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNavigationController.m; sourceTree = "<group>"; };
+		A7564F341EE51F0E00672FA5 /* UIViewController+SYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SYNavigationController.h"; sourceTree = "<group>"; };
+		A7564F351EE51F0E00672FA5 /* UIViewController+SYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SYNavigationController.m"; sourceTree = "<group>"; };
+		A7564F3A1EE5386400672FA5 /* AnimationCubeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCubeVC.h; sourceTree = "<group>"; };
+		A7564F3B1EE5386400672FA5 /* AnimationCubeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCubeVC.m; sourceTree = "<group>"; };
+		A7564F3D1EE5486000672FA5 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A7564F3E1EE5486000672FA5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A7564F401EE54AE100672FA5 /* AnimationMoveInVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationMoveInVC.h; sourceTree = "<group>"; };
+		A7564F411EE54AE100672FA5 /* AnimationMoveInVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationMoveInVC.m; sourceTree = "<group>"; };
+		A7564F431EE54AF600672FA5 /* AnimationRevealVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationRevealVC.h; sourceTree = "<group>"; };
+		A7564F441EE54AF600672FA5 /* AnimationRevealVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationRevealVC.m; sourceTree = "<group>"; };
+		A7564F461EE54B0800672FA5 /* AnimationFadeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationFadeVC.h; sourceTree = "<group>"; };
+		A7564F471EE54B0800672FA5 /* AnimationFadeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationFadeVC.m; sourceTree = "<group>"; };
+		A7564F491EE54B1900672FA5 /* AnimationPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationPageVC.h; sourceTree = "<group>"; };
+		A7564F4A1EE54B1900672FA5 /* AnimationPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationPageVC.m; sourceTree = "<group>"; };
+		A7564F4C1EE54B2B00672FA5 /* AnimationSuckVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationSuckVC.h; sourceTree = "<group>"; };
+		A7564F4D1EE54B2B00672FA5 /* AnimationSuckVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationSuckVC.m; sourceTree = "<group>"; };
+		A7564F4F1EE54B3C00672FA5 /* AnimationRippleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationRippleVC.h; sourceTree = "<group>"; };
+		A7564F501EE54B3C00672FA5 /* AnimationRippleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationRippleVC.m; sourceTree = "<group>"; };
+		A7564F521EE54B4F00672FA5 /* AnimationOglVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationOglVC.h; sourceTree = "<group>"; };
+		A7564F531EE54B4F00672FA5 /* AnimationOglVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationOglVC.m; sourceTree = "<group>"; };
+		A7564F551EE54B9700672FA5 /* AnimationRotateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationRotateVC.h; sourceTree = "<group>"; };
+		A7564F561EE54B9700672FA5 /* AnimationRotateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationRotateVC.m; sourceTree = "<group>"; };
+		A7564F581EE54BB300672FA5 /* AnimationPushVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationPushVC.h; sourceTree = "<group>"; };
+		A7564F591EE54BB300672FA5 /* AnimationPushVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationPushVC.m; sourceTree = "<group>"; };
+		A7564F5B1EE54BC200672FA5 /* AnimationCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCameraVC.h; sourceTree = "<group>"; };
+		A7564F5C1EE54BC200672FA5 /* AnimationCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCameraVC.m; sourceTree = "<group>"; };
 		A78418031DFFCBCA008D47EB /* DemoNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78418071DFFCBCA008D47EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A78418091DFFCBCA008D47EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A784180A1DFFCBCA008D47EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A784180C1DFFCBCA008D47EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A784180D1DFFCBCA008D47EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A78418101DFFCBCA008D47EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A78418121DFFCBCA008D47EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A78418151DFFCBCA008D47EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A78418171DFFCBCA008D47EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,17 +136,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A77422B41E0D125100D7F547 /* SYNavigationViewController */ = {
+		A7564F2F1EE51F0E00672FA5 /* SYNavigationViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A77422BB1E0D2C1F00D7F547 /* SYNavigationBar.h */,
-				A77422BC1E0D2C1F00D7F547 /* SYNavigationBar.m */,
-				A77422B51E0D125100D7F547 /* SYNavigationController.h */,
-				A77422B61E0D125100D7F547 /* SYNavigationController.m */,
-				A77422B71E0D125100D7F547 /* UIViewController+SYNavigationController.h */,
-				A77422B81E0D125100D7F547 /* UIViewController+SYNavigationController.m */,
+				A7564F301EE51F0E00672FA5 /* SYNavigationBar.h */,
+				A7564F311EE51F0E00672FA5 /* SYNavigationBar.m */,
+				A7564F321EE51F0E00672FA5 /* SYNavigationController.h */,
+				A7564F331EE51F0E00672FA5 /* SYNavigationController.m */,
+				A7564F341EE51F0E00672FA5 /* UIViewController+SYNavigationController.h */,
+				A7564F351EE51F0E00672FA5 /* UIViewController+SYNavigationController.m */,
 			);
-			path = SYNavigationViewController;
+			name = SYNavigationViewController;
+			path = ../../SYNavigationViewController;
+			sourceTree = "<group>";
+		};
+		A7564F391EE537E300672FA5 /* animationVC */ = {
+			isa = PBXGroup;
+			children = (
+				A7564F3A1EE5386400672FA5 /* AnimationCubeVC.h */,
+				A7564F3B1EE5386400672FA5 /* AnimationCubeVC.m */,
+				A7564F401EE54AE100672FA5 /* AnimationMoveInVC.h */,
+				A7564F411EE54AE100672FA5 /* AnimationMoveInVC.m */,
+				A7564F431EE54AF600672FA5 /* AnimationRevealVC.h */,
+				A7564F441EE54AF600672FA5 /* AnimationRevealVC.m */,
+				A7564F461EE54B0800672FA5 /* AnimationFadeVC.h */,
+				A7564F471EE54B0800672FA5 /* AnimationFadeVC.m */,
+				A7564F491EE54B1900672FA5 /* AnimationPageVC.h */,
+				A7564F4A1EE54B1900672FA5 /* AnimationPageVC.m */,
+				A7564F4C1EE54B2B00672FA5 /* AnimationSuckVC.h */,
+				A7564F4D1EE54B2B00672FA5 /* AnimationSuckVC.m */,
+				A7564F4F1EE54B3C00672FA5 /* AnimationRippleVC.h */,
+				A7564F501EE54B3C00672FA5 /* AnimationRippleVC.m */,
+				A7564F521EE54B4F00672FA5 /* AnimationOglVC.h */,
+				A7564F531EE54B4F00672FA5 /* AnimationOglVC.m */,
+				A7564F551EE54B9700672FA5 /* AnimationRotateVC.h */,
+				A7564F561EE54B9700672FA5 /* AnimationRotateVC.m */,
+				A7564F581EE54BB300672FA5 /* AnimationPushVC.h */,
+				A7564F591EE54BB300672FA5 /* AnimationPushVC.m */,
+				A7564F5B1EE54BC200672FA5 /* AnimationCameraVC.h */,
+				A7564F5C1EE54BC200672FA5 /* AnimationCameraVC.m */,
+			);
+			name = animationVC;
+			sourceTree = "<group>";
+		};
+		A7564F5E1EE54BD800672FA5 /* navigationVC */ = {
+			isa = PBXGroup;
+			children = (
+				A784185E1DFFDF50008D47EB /* BarViewController.h */,
+				A784185F1DFFDF50008D47EB /* BarViewController.m */,
+				A78418461DFFCD83008D47EB /* RedViewController.h */,
+				A78418471DFFCD83008D47EB /* RedViewController.m */,
+				A78418551DFFDF03008D47EB /* GreenViewController.h */,
+				A78418561DFFDF03008D47EB /* GreenViewController.m */,
+				A78418581DFFDF0B008D47EB /* BrownViewController.h */,
+				A78418591DFFDF0B008D47EB /* BrownViewController.m */,
+				A784185B1DFFDF24008D47EB /* PurpleViewController.h */,
+				A784185C1DFFDF24008D47EB /* PurpleViewController.m */,
+			);
+			name = navigationVC;
 			sourceTree = "<group>";
 		};
 		A78417FA1DFFCBC9008D47EB = {
@@ -140,23 +221,13 @@
 			children = (
 				A78418091DFFCBCA008D47EB /* AppDelegate.h */,
 				A784180A1DFFCBCA008D47EB /* AppDelegate.m */,
+				A7564F3D1EE5486000672FA5 /* BaseViewController.h */,
+				A7564F3E1EE5486000672FA5 /* BaseViewController.m */,
 				A784180C1DFFCBCA008D47EB /* ViewController.h */,
 				A784180D1DFFCBCA008D47EB /* ViewController.m */,
-				A784185E1DFFDF50008D47EB /* BarViewController.h */,
-				A784185F1DFFDF50008D47EB /* BarViewController.m */,
-				A78418461DFFCD83008D47EB /* RedViewController.h */,
-				A78418471DFFCD83008D47EB /* RedViewController.m */,
-				A78418551DFFDF03008D47EB /* GreenViewController.h */,
-				A78418561DFFDF03008D47EB /* GreenViewController.m */,
-				A78418581DFFDF0B008D47EB /* BrownViewController.h */,
-				A78418591DFFDF0B008D47EB /* BrownViewController.m */,
-				A784185B1DFFDF24008D47EB /* PurpleViewController.h */,
-				A784185C1DFFDF24008D47EB /* PurpleViewController.m */,
-				A77422B41E0D125100D7F547 /* SYNavigationViewController */,
-				A784180F1DFFCBCA008D47EB /* Main.storyboard */,
-				A78418121DFFCBCA008D47EB /* Assets.xcassets */,
-				A78418141DFFCBCA008D47EB /* LaunchScreen.storyboard */,
-				A78418171DFFCBCA008D47EB /* Info.plist */,
+				A7564F5E1EE54BD800672FA5 /* navigationVC */,
+				A7564F391EE537E300672FA5 /* animationVC */,
+				A7564F2F1EE51F0E00672FA5 /* SYNavigationViewController */,
 				A78418061DFFCBCA008D47EB /* Supporting Files */,
 			);
 			path = DemoNavigationController;
@@ -165,6 +236,9 @@
 		A78418061DFFCBCA008D47EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A78418121DFFCBCA008D47EB /* Assets.xcassets */,
+				A78418141DFFCBCA008D47EB /* LaunchScreen.storyboard */,
+				A78418171DFFCBCA008D47EB /* Info.plist */,
 				A78418071DFFCBCA008D47EB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -293,7 +367,6 @@
 			files = (
 				A78418161DFFCBCA008D47EB /* LaunchScreen.storyboard in Resources */,
 				A78418131DFFCBCA008D47EB /* Assets.xcassets in Resources */,
-				A78418111DFFCBCA008D47EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,17 +391,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7564F3C1EE5386400672FA5 /* AnimationCubeVC.m in Sources */,
+				A7564F5A1EE54BB300672FA5 /* AnimationPushVC.m in Sources */,
+				A7564F511EE54B3C00672FA5 /* AnimationRippleVC.m in Sources */,
 				A784180E1DFFCBCA008D47EB /* ViewController.m in Sources */,
+				A7564F361EE51F0E00672FA5 /* SYNavigationBar.m in Sources */,
 				A784185A1DFFDF0B008D47EB /* BrownViewController.m in Sources */,
 				A784180B1DFFCBCA008D47EB /* AppDelegate.m in Sources */,
+				A7564F571EE54B9700672FA5 /* AnimationRotateVC.m in Sources */,
+				A7564F541EE54B4F00672FA5 /* AnimationOglVC.m in Sources */,
+				A7564F4E1EE54B2B00672FA5 /* AnimationSuckVC.m in Sources */,
+				A7564F481EE54B0800672FA5 /* AnimationFadeVC.m in Sources */,
 				A784185D1DFFDF24008D47EB /* PurpleViewController.m in Sources */,
-				A77422BA1E0D125100D7F547 /* UIViewController+SYNavigationController.m in Sources */,
-				A77422B91E0D125100D7F547 /* SYNavigationController.m in Sources */,
-				A77422BD1E0D2C1F00D7F547 /* SYNavigationBar.m in Sources */,
+				A7564F5D1EE54BC200672FA5 /* AnimationCameraVC.m in Sources */,
 				A78418601DFFDF50008D47EB /* BarViewController.m in Sources */,
+				A7564F421EE54AE100672FA5 /* AnimationMoveInVC.m in Sources */,
 				A78418481DFFCD83008D47EB /* RedViewController.m in Sources */,
+				A7564F4B1EE54B1900672FA5 /* AnimationPageVC.m in Sources */,
 				A78418571DFFDF03008D47EB /* GreenViewController.m in Sources */,
+				A7564F3F1EE5486000672FA5 /* BaseViewController.m in Sources */,
 				A78418081DFFCBCA008D47EB /* main.m in Sources */,
+				A7564F381EE51F0E00672FA5 /* UIViewController+SYNavigationController.m in Sources */,
+				A7564F451EE54AF600672FA5 /* AnimationRevealVC.m in Sources */,
+				A7564F371EE51F0E00672FA5 /* SYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A784180F1DFFCBCA008D47EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A78418101DFFCBCA008D47EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A78418141DFFCBCA008D47EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

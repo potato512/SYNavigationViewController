@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface BrownViewController : UIViewController
+@interface BrownViewController : BaseViewController
 
 @end

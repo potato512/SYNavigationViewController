@@ -936,6 +936,24 @@ __attribute((overloadable)) static inline UIViewController *SYSafeWrapViewContro
     return (gestureRecognizer == self.interactivePopGestureRecognizer);
 }
 
+#pragma mark - 自定义转场动画
+
+- (void)navigationControllerAnimation:(NSTimeInterval)duration type:(NSString *)type subType:(NSString *)subType function:(NSString *)function
+{
+    // 动画对象
+    CATransition *animation = [CATransition animation];
+    // 动画时间
+    animation.duration = duration;
+    // 动画类型-动画形式
+    animation.type = type;
+    // 动画子类型-动画方向
+    animation.subtype = subType;
+    // 动画轨迹
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:function];
+    
+    // 添加动画到响应对象
+    [self.view.layer addAnimation:animation forKey:nil];
+}
 
 
 @end
