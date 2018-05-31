@@ -35,7 +35,11 @@ rootVC.showCancelBarButtonItem = YES;
 
 ~~~ javascript
 // 修改导航栏样式
-[self navigationStyleWithBackgroundColor:[UIColor brownColor] buttonColor:[UIColor yellowColor] titleColor:[UIColor greenColor] titleFont:[UIFont systemFontOfSize:12.0]];
+[self navigationStyleWithBackgroundColor:[UIColor brownColor] buttonColor:[UIColor yellowColor] titleColor:[UIColor greenColor] titleFont:[UIFont systemFontOfSize:12.0] shadowline:[UIImage imageNamed:@"line"]];
+
+// 注意：如果修改字体颜色无效时，在当前视图控制器中coding设置方法
+self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor brownColor]};
+self.navigationController.navigationBar.titleTextAttributes = @{NSFontAttributeName:[UIFont systemFontOfSize:12.0]};
 ~~~ 
 
 ~~~ javascript
@@ -62,6 +66,18 @@ NSLog(@"%@ 是 %@ 中的第 %@ 个视图控制器", self, @(self.sy_navigationCo
 
 
 #### 修改
+* 20180531
+  * 版本号：1.0.0
+  * 导航样式方法修改
+  
+  ```
+  // 原方法
+  - (void)navigationStyleWithBackgroundColor:(UIColor *)bgColor buttonColor:(UIColor *)btnColor titleColor:(UIColor *)txtColor titleFont:(UIFont *)txtFont;
+  
+  // 修改后
+  - (void)navigationStyleWithBackgroundColor:(UIColor *)bgColor buttonColor:(UIColor *)btnColor titleColor:(UIColor *)txtColor titleFont:(UIFont *)txtFont shadowline:(UIImage *)image
+  ```
+  
 * 20170605
   * 添加转场动画设置
 ~~~ javascript

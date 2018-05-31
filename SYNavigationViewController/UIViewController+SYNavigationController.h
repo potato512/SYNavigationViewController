@@ -77,11 +77,13 @@ IB_DESIGNABLE
  *  @param btnColor 导航栏按钮标题字体颜色
  *  @param txtColor 导航栏标题字体颜色
  *  @param txtFont  导航栏标题字体大小
+ *  @param image    导航栏阴影线
+ *
  */
 - (void)navigationStyleWithBackgroundColor:(UIColor *)bgColor
                                buttonColor:(UIColor *)btnColor
                                 titleColor:(UIColor *)txtColor
-                                 titleFont:(UIFont *)txtFont;
-
+                                 titleFont:(UIFont *)txtFont
+                                shadowline:(UIImage *)image;
 
 @end

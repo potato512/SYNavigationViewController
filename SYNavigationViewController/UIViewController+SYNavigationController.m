@@ -97,14 +97,14 @@
 
 #pragma mark 导航栏样式
 
-- (void)navigationStyleWithBackgroundColor:(UIColor *)bgColor buttonColor:(UIColor *)btnColor titleColor:(UIColor *)txtColor titleFont:(UIFont *)txtFont
+- (void)navigationStyleWithBackgroundColor:(UIColor *)bgColor buttonColor:(UIColor *)btnColor titleColor:(UIColor *)txtColor titleFont:(UIFont *)txtFont shadowline:(UIImage *)image
 {
-    // 使用 RTRootNavigationController 设置具有动画push效果（原生的则是突然变化）
+    // 使用 SYNavigationContrller 设置具有动画push效果（原生的则是突然变化）
     self.navigationController.navigationBar.translucent = NO;
     
     // 导航栏背景颜色
     if (bgColor)
-    {
+    {        
         self.navigationController.navigationBar.barTintColor = bgColor;
     }
     
@@ -117,14 +117,20 @@
     // 导航栏标题字体颜色
     if (txtColor)
     {
-        [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:txtColor}];
+        self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:txtColor};
     }
     // 导航栏标题字体大小
     if (txtFont)
     {
         self.navigationController.navigationBar.titleTextAttributes = @{NSFontAttributeName:txtFont};
     }
-}
+    
+    // 导航底部1px的阴影颜色
+    if (image)
+    {
+        [self.navigationController.navigationBar setShadowImage:image];
+    }
+}         
 
 
 @end
